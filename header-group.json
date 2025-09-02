@@ -1,0 +1,65 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "name": "t:sections.header.name",
+  "type": "header",
+  "sections": {
+    "announcement-bar": {
+      "type": "announcement-bar",
+      "blocks": {
+        "announcement-bar-0": {
+          "type": "announcement",
+          "settings": {
+            "text": "Welcome to our store",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "announcement-bar-0"
+      ],
+      "settings": {
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "color_scheme": "scheme-1",
+        "show_line_separator": true,
+        "show_social": false,
+        "enable_country_selector": false,
+        "enable_language_selector": false
+      }
+    },
+    "header": {
+      "type": "custom-header",
+      "blocks": {
+        "mega_image_AJMYy9": {
+          "type": "mega_image",
+          "disabled": true,
+          "settings": {
+            "menu_handle": "Home",
+            "image": "shopify://shop_images/red-t-shirt.jpg",
+            "text": "Red T-Shirt",
+            "link": "shopify://collections"
+          }
+        }
+      },
+      "block_order": [
+        "mega_image_AJMYy9"
+      ],
+      "settings": {
+        "main_menu": "main-menu",
+        "logo": "shopify://shop_images/35322171_8_1sasa11.jpg"
+      }
+    }
+  },
+  "order": [
+    "announcement-bar",
+    "header"
+  ]
+}
